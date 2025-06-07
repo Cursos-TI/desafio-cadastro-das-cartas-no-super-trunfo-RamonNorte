@@ -24,7 +24,7 @@ int main() {
     float Area2= 1200.25  ;
     float PIB2= 300.50  ;
     int Pontos_Turisticos2=30  ;
-printf("Carta 1");
+printf("Carta 1\n");
 printf("Estado: %s\n", estado) ; 
 printf("Código: %s\n", codigo);
 printf("Cidade: %s\n", cidade); 
@@ -33,7 +33,7 @@ printf("Área: %.2f km²\n", Area);
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 
-printf("carta 2");
+printf("carta 2\n");
 printf("Estado: %s\n", estado2) ; 
 printf("Código: %s\n", codigo2);
 printf("Cidade: %s\n", cidade2); 
