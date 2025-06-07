@@ -17,14 +17,14 @@ int main() {
     float PIB= 699.28 ;
     int Pontos_Turisticos=50 ;
 
-    char estado[20]="B";
-    char codigo[20]= "B02";
-    char cidade[20] = "Rio de Janeiro" ;
-    int Populacao=6748000 ;
-    float Area= 1200.25  ;
-    float PIB= 300.50  ;
-    int Pontos_Turisticos=30  ;
-
+    char estado2[20]="B";
+    char codigo2[20]= "B02";
+    char cidade2[20] = "Rio de Janeiro" ;
+    int Populacao2=6748000 ;
+    float Area2= 1200.25  ;
+    float PIB2= 300.50  ;
+    int Pontos_Turisticos2=30  ;
+printf("Carta 1");
 printf("Estado: %s\n", estado) ; 
 printf("Código: %s\n", codigo);
 printf("Cidade: %s\n", cidade); 
@@ -33,6 +33,14 @@ printf("Área: %.2f km²\n", Area);
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 
+printf("carta 2");
+printf("Estado: %s\n", estado2) ; 
+printf("Código: %s\n", codigo2);
+printf("Cidade: %s\n", cidade2); 
+printf("População: %d\n", Populacao2); 
+printf("Área: %.2f km²\n", Area2); 
+printf("PIB: %.2f bilhões\n", PIB2);
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
