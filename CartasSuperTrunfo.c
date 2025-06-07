@@ -26,7 +26,12 @@ int main() {
     int Pontos_Turisticos=30  ;
 
 printf("Estado: %s\n", estado) ; 
-
+printf("Código: %s\n", código);
+printf("Cidade: %s\n", cidade); 
+printf("População: %d\n", População); 
+printf("Área: %.2f km²\n", Área); 
+printf("PIB: %.2f bilhões\n", PIB);
+printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
