@@ -12,7 +12,7 @@ int main() {
     char estado[20]="A";
     char codigo[20]= "A01";
     char cidade[20] = "São Paulo" ;
-    int Populaçao=12325000 ;
+    int Populacao=12325000 ;
     float Area= 1521.11 ;
     float PIB= 699.28 ;
     int Pontos_Turisticos=50 ;
@@ -20,7 +20,7 @@ int main() {
     char estado[20]="B";
     char codigo[20]= "B02";
     char cidade[20] = "Rio de Janeiro" ;
-    int Populaçao=6748000 ;
+    int Populacao=6748000 ;
     float Area= 1200.25  ;
     float PIB= 300.50  ;
     int Pontos_Turisticos=30  ;
@@ -28,7 +28,7 @@ int main() {
 printf("Estado: %s\n", estado) ; 
 printf("Código: %s\n", codigo);
 printf("Cidade: %s\n", cidade); 
-printf("População: %d\n", Populaçao); 
+printf("População: %d\n", Populacao); 
 printf("Área: %.2f km²\n", Area); 
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos);
