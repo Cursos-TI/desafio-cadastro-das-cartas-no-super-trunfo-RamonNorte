@@ -4,7 +4,13 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+// Cadastro das Cartas:
+    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
@@ -17,7 +23,7 @@ int main() {
     float PIB= 699.28 ;
     int Pontos_Turisticos=50 ;
     float Densidade_Populacional= Populacao/Area ;
-    float PIB_per_Capita= PIB/Populacao ;
+    float PIB_per_Capita= (PIB*1000000000)/Populacao ;
     
     char estado2[20]="B";
     char codigo2[20]= "B02";
@@ -26,7 +32,8 @@ int main() {
     float Area2= 1200.25  ;
     float PIB2= 300.50  ;
     int Pontos_Turisticos2=30  ;
-
+    float Densidade_Populacional2= Populacao2/Area2 ;
+    float PIB_per_Capita2= (PIB2*1000000000)/Populacao2 ;
 
 printf("Carta 1\n");
 printf("Estado: %s\n", estado) ; 
@@ -35,7 +42,7 @@ printf("Cidade: %s\n", cidade);
 printf("População: %d\n", Populacao); 
 printf("Área: %.2f km²\n", Area); 
 printf("PIB: %.2f bilhões\n", PIB);
-printf("Densidade Populacional:%.2f bilhões\n", Densidade_Populacional);
+printf("Densidade Populacional:%.2f km²\n", Densidade_Populacional);
 printf("PIB per Capita:%.2f reais\n", PIB_per_Capita);
 
 
@@ -47,13 +54,23 @@ printf("População: %d\n", Populacao2);
 printf("Área: %.2f km²\n", Area2); 
 printf("PIB: %.2f bilhões\n", PIB2);
 printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+printf("Densidade Populacional:%.2f km²\n", Densidade_Populacional2);
+printf("PIB per Capita:%.2f reais\n", PIB_per_Capita2);
+
+printf("Comparação de cartas\n");
+    if(Populacao>Populacao2);
+    printf("Carta 1 Venceu!(1)\n");
+    if(Area>Area2);
+    printf("Carta 1 Venceu!(1)\n");
+    if(PIB>PIB2);
+    printf("Carta 1 Venceu!(1)\n");
+    if(Pontos_Turisticos>Pontos_Turisticos2);
+    printf("Carta 1 Venceu!(1)\n");
+    if(Densidade_Populacional<Densidade_Populacional2);
+    printf("Carta 1 Venceu!(1)\n");
+    if(PIB_per_Capita>PIB_per_Capita2);
+    printf("Carta 1 Venceu!(1)\n");
+
 
     return 0;
 }
