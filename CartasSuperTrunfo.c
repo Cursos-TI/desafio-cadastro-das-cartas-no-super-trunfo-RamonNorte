@@ -36,7 +36,7 @@ printf("População: %d\n", Populacao);
 printf("Área: %.2f km²\n", Area); 
 printf("PIB: %.2f bilhões\n", PIB);
 printf("Densidade Populacional:%.2f bilhões\n", Densidade_Populacional);
-printf("PIB per Capita:%.2f bilhões\n", PIB_per_Capita);
+printf("PIB per Capita:%.2f reais\n", PIB_per_Capita);
 
 
 printf("carta 2\n");
